@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/xiaoke2015/JMBaseKit.git", :tag => "#{s.version}" }
 
-  s.source_files  = "MJRefresh/*.{h,m}"
+  s.source_files  = "pod lib lint/*.{h,m}"
 
 end
