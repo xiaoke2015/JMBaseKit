@@ -15,6 +15,11 @@
 		37A3EA191FE3A7E800F4C3FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A3EA181FE3A7E800F4C3FD /* main.m */; };
 		37A3EA231FE3A7E800F4C3FD /* JMBaseKitExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A3EA221FE3A7E800F4C3FD /* JMBaseKitExampleTests.m */; };
 		37A3EA2E1FE3A7E800F4C3FD /* JMBaseKitExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A3EA2D1FE3A7E800F4C3FD /* JMBaseKitExampleUITests.m */; };
+		37A3EA471FE3A80300F4C3FD /* JMBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A3EA3C1FE3A80200F4C3FD /* JMBaseModel.m */; };
+		37A3EA481FE3A80300F4C3FD /* JMBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A3EA3F1FE3A80200F4C3FD /* JMBaseNavigationController.m */; };
+		37A3EA491FE3A80300F4C3FD /* NSDate+JMBaseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A3EA411FE3A80200F4C3FD /* NSDate+JMBaseKit.m */; };
+		37A3EA4A1FE3A80300F4C3FD /* JMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A3EA441FE3A80200F4C3FD /* JMBaseViewController.m */; };
+		37A3EA4B1FE3A80300F4C3FD /* UIView+JMBaseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A3EA461FE3A80200F4C3FD /* UIView+JMBaseKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,17 @@
 		37A3EA291FE3A7E800F4C3FD /* JMBaseKitExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMBaseKitExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A3EA2D1FE3A7E800F4C3FD /* JMBaseKitExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMBaseKitExampleUITests.m; sourceTree = "<group>"; };
 		37A3EA2F1FE3A7E800F4C3FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37A3EA3C1FE3A80200F4C3FD /* JMBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMBaseModel.m; sourceTree = "<group>"; };
+		37A3EA3D1FE3A80200F4C3FD /* NSDate+JMBaseKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JMBaseKit.h"; sourceTree = "<group>"; };
+		37A3EA3E1FE3A80200F4C3FD /* JMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBaseViewController.h; sourceTree = "<group>"; };
+		37A3EA3F1FE3A80200F4C3FD /* JMBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMBaseNavigationController.m; sourceTree = "<group>"; };
+		37A3EA401FE3A80200F4C3FD /* UIView+JMBaseKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JMBaseKit.h"; sourceTree = "<group>"; };
+		37A3EA411FE3A80200F4C3FD /* NSDate+JMBaseKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JMBaseKit.m"; sourceTree = "<group>"; };
+		37A3EA421FE3A80200F4C3FD /* JMBaseKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBaseKit.h; sourceTree = "<group>"; };
+		37A3EA431FE3A80200F4C3FD /* JMBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBaseModel.h; sourceTree = "<group>"; };
+		37A3EA441FE3A80200F4C3FD /* JMBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMBaseViewController.m; sourceTree = "<group>"; };
+		37A3EA451FE3A80200F4C3FD /* JMBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBaseNavigationController.h; sourceTree = "<group>"; };
+		37A3EA461FE3A80200F4C3FD /* UIView+JMBaseKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JMBaseKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +97,7 @@
 		37A3E9FD1FE3A7E800F4C3FD = {
 			isa = PBXGroup;
 			children = (
+				37A3EA3B1FE3A80200F4C3FD /* JMBaseKit */,
 				37A3EA081FE3A7E800F4C3FD /* JMBaseKitExample */,
 				37A3EA211FE3A7E800F4C3FD /* JMBaseKitExampleTests */,
 				37A3EA2C1FE3A7E800F4C3FD /* JMBaseKitExampleUITests */,
@@ -130,6 +147,24 @@
 				37A3EA2F1FE3A7E800F4C3FD /* Info.plist */,
 			);
 			path = JMBaseKitExampleUITests;
+			sourceTree = "<group>";
+		};
+		37A3EA3B1FE3A80200F4C3FD /* JMBaseKit */ = {
+			isa = PBXGroup;
+			children = (
+				37A3EA3C1FE3A80200F4C3FD /* JMBaseModel.m */,
+				37A3EA3D1FE3A80200F4C3FD /* NSDate+JMBaseKit.h */,
+				37A3EA3E1FE3A80200F4C3FD /* JMBaseViewController.h */,
+				37A3EA3F1FE3A80200F4C3FD /* JMBaseNavigationController.m */,
+				37A3EA401FE3A80200F4C3FD /* UIView+JMBaseKit.h */,
+				37A3EA411FE3A80200F4C3FD /* NSDate+JMBaseKit.m */,
+				37A3EA421FE3A80200F4C3FD /* JMBaseKit.h */,
+				37A3EA431FE3A80200F4C3FD /* JMBaseModel.h */,
+				37A3EA441FE3A80200F4C3FD /* JMBaseViewController.m */,
+				37A3EA451FE3A80200F4C3FD /* JMBaseNavigationController.h */,
+				37A3EA461FE3A80200F4C3FD /* UIView+JMBaseKit.m */,
+			);
+			path = JMBaseKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,8 +301,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				37A3EA0E1FE3A7E800F4C3FD /* ViewController.m in Sources */,
+				37A3EA491FE3A80300F4C3FD /* NSDate+JMBaseKit.m in Sources */,
+				37A3EA481FE3A80300F4C3FD /* JMBaseNavigationController.m in Sources */,
+				37A3EA4B1FE3A80300F4C3FD /* UIView+JMBaseKit.m in Sources */,
+				37A3EA4A1FE3A80300F4C3FD /* JMBaseViewController.m in Sources */,
 				37A3EA191FE3A7E800F4C3FD /* main.m in Sources */,
 				37A3EA0B1FE3A7E800F4C3FD /* AppDelegate.m in Sources */,
+				37A3EA471FE3A80300F4C3FD /* JMBaseModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
