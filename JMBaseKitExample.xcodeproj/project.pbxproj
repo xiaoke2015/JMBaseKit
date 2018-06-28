@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		378D849120D2690100E25029 /* UIViewController+JMBaseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 378D849020D2690100E25029 /* UIViewController+JMBaseKit.m */; };
+		378D849720D2765500E25029 /* UIImage+JMKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 378D849620D2765500E25029 /* UIImage+JMKit.m */; };
+		378D849A20D27A4900E25029 /* YYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 378D849920D27A4900E25029 /* YYViewController.m */; };
+		378D84C220D3A0DF00E25029 /* NSMutableAttributedString+JMKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 378D84C120D3A0DF00E25029 /* NSMutableAttributedString+JMKit.m */; };
+		378D84C520D3A27E00E25029 /* NSString+JMKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 378D84C420D3A27E00E25029 /* NSString+JMKit.m */; };
+		378D84CA20D3C91200E25029 /* NSDate+JMKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 378D84C920D3C91200E25029 /* NSDate+JMKit.m */; };
 		37A3EA0B1FE3A7E800F4C3FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A3EA0A1FE3A7E800F4C3FD /* AppDelegate.m */; };
 		37A3EA0E1FE3A7E800F4C3FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A3EA0D1FE3A7E800F4C3FD /* ViewController.m */; };
 		37A3EA111FE3A7E800F4C3FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A3EA0F1FE3A7E800F4C3FD /* Main.storyboard */; };
@@ -15,11 +21,10 @@
 		37A3EA191FE3A7E800F4C3FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A3EA181FE3A7E800F4C3FD /* main.m */; };
 		37A3EA231FE3A7E800F4C3FD /* JMBaseKitExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A3EA221FE3A7E800F4C3FD /* JMBaseKitExampleTests.m */; };
 		37A3EA2E1FE3A7E800F4C3FD /* JMBaseKitExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A3EA2D1FE3A7E800F4C3FD /* JMBaseKitExampleUITests.m */; };
-		37A3EA471FE3A80300F4C3FD /* JMBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A3EA3C1FE3A80200F4C3FD /* JMBaseModel.m */; };
 		37A3EA481FE3A80300F4C3FD /* JMBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A3EA3F1FE3A80200F4C3FD /* JMBaseNavigationController.m */; };
-		37A3EA491FE3A80300F4C3FD /* NSDate+JMBaseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A3EA411FE3A80200F4C3FD /* NSDate+JMBaseKit.m */; };
-		37A3EA4A1FE3A80300F4C3FD /* JMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A3EA441FE3A80200F4C3FD /* JMBaseViewController.m */; };
 		37A3EA4B1FE3A80300F4C3FD /* UIView+JMBaseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A3EA461FE3A80200F4C3FD /* UIView+JMBaseKit.m */; };
+		37D6301720E4927600311029 /* JMImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D6301620E4927600311029 /* JMImagePicker.m */; };
+		37D6301A20E4AE1D00311029 /* UIButton+JMKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D6301920E4AE1D00311029 /* UIButton+JMKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		378D848F20D2690100E25029 /* UIViewController+JMBaseKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JMBaseKit.h"; sourceTree = "<group>"; };
+		378D849020D2690100E25029 /* UIViewController+JMBaseKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JMBaseKit.m"; sourceTree = "<group>"; };
+		378D849520D2765400E25029 /* UIImage+JMKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+JMKit.h"; sourceTree = "<group>"; };
+		378D849620D2765500E25029 /* UIImage+JMKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JMKit.m"; sourceTree = "<group>"; };
+		378D849820D27A4900E25029 /* YYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYViewController.h; sourceTree = "<group>"; };
+		378D849920D27A4900E25029 /* YYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYViewController.m; sourceTree = "<group>"; };
+		378D84C020D3A0DF00E25029 /* NSMutableAttributedString+JMKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+JMKit.h"; sourceTree = "<group>"; };
+		378D84C120D3A0DF00E25029 /* NSMutableAttributedString+JMKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+JMKit.m"; sourceTree = "<group>"; };
+		378D84C320D3A27E00E25029 /* NSString+JMKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+JMKit.h"; sourceTree = "<group>"; };
+		378D84C420D3A27E00E25029 /* NSString+JMKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+JMKit.m"; sourceTree = "<group>"; };
+		378D84C820D3C91200E25029 /* NSDate+JMKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+JMKit.h"; sourceTree = "<group>"; };
+		378D84C920D3C91200E25029 /* NSDate+JMKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JMKit.m"; sourceTree = "<group>"; };
 		37A3EA061FE3A7E800F4C3FD /* JMBaseKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMBaseKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A3EA091FE3A7E800F4C3FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		37A3EA0A1FE3A7E800F4C3FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -56,17 +73,15 @@
 		37A3EA291FE3A7E800F4C3FD /* JMBaseKitExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMBaseKitExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A3EA2D1FE3A7E800F4C3FD /* JMBaseKitExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMBaseKitExampleUITests.m; sourceTree = "<group>"; };
 		37A3EA2F1FE3A7E800F4C3FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37A3EA3C1FE3A80200F4C3FD /* JMBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMBaseModel.m; sourceTree = "<group>"; };
-		37A3EA3D1FE3A80200F4C3FD /* NSDate+JMBaseKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JMBaseKit.h"; sourceTree = "<group>"; };
-		37A3EA3E1FE3A80200F4C3FD /* JMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBaseViewController.h; sourceTree = "<group>"; };
 		37A3EA3F1FE3A80200F4C3FD /* JMBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMBaseNavigationController.m; sourceTree = "<group>"; };
 		37A3EA401FE3A80200F4C3FD /* UIView+JMBaseKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JMBaseKit.h"; sourceTree = "<group>"; };
-		37A3EA411FE3A80200F4C3FD /* NSDate+JMBaseKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JMBaseKit.m"; sourceTree = "<group>"; };
 		37A3EA421FE3A80200F4C3FD /* JMBaseKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBaseKit.h; sourceTree = "<group>"; };
-		37A3EA431FE3A80200F4C3FD /* JMBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBaseModel.h; sourceTree = "<group>"; };
-		37A3EA441FE3A80200F4C3FD /* JMBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMBaseViewController.m; sourceTree = "<group>"; };
 		37A3EA451FE3A80200F4C3FD /* JMBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBaseNavigationController.h; sourceTree = "<group>"; };
 		37A3EA461FE3A80200F4C3FD /* UIView+JMBaseKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JMBaseKit.m"; sourceTree = "<group>"; };
+		37D6301520E4927600311029 /* JMImagePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMImagePicker.h; sourceTree = "<group>"; };
+		37D6301620E4927600311029 /* JMImagePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMImagePicker.m; sourceTree = "<group>"; };
+		37D6301820E4AE1D00311029 /* UIButton+JMKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+JMKit.h"; sourceTree = "<group>"; };
+		37D6301920E4AE1D00311029 /* UIButton+JMKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JMKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +137,8 @@
 				37A3EA0A1FE3A7E800F4C3FD /* AppDelegate.m */,
 				37A3EA0C1FE3A7E800F4C3FD /* ViewController.h */,
 				37A3EA0D1FE3A7E800F4C3FD /* ViewController.m */,
+				378D849820D27A4900E25029 /* YYViewController.h */,
+				378D849920D27A4900E25029 /* YYViewController.m */,
 				37A3EA0F1FE3A7E800F4C3FD /* Main.storyboard */,
 				37A3EA121FE3A7E800F4C3FD /* Assets.xcassets */,
 				37A3EA141FE3A7E800F4C3FD /* LaunchScreen.storyboard */,
@@ -152,17 +169,25 @@
 		37A3EA3B1FE3A80200F4C3FD /* JMBaseKit */ = {
 			isa = PBXGroup;
 			children = (
-				37A3EA3C1FE3A80200F4C3FD /* JMBaseModel.m */,
-				37A3EA3D1FE3A80200F4C3FD /* NSDate+JMBaseKit.h */,
-				37A3EA3E1FE3A80200F4C3FD /* JMBaseViewController.h */,
-				37A3EA3F1FE3A80200F4C3FD /* JMBaseNavigationController.m */,
-				37A3EA401FE3A80200F4C3FD /* UIView+JMBaseKit.h */,
-				37A3EA411FE3A80200F4C3FD /* NSDate+JMBaseKit.m */,
 				37A3EA421FE3A80200F4C3FD /* JMBaseKit.h */,
-				37A3EA431FE3A80200F4C3FD /* JMBaseModel.h */,
-				37A3EA441FE3A80200F4C3FD /* JMBaseViewController.m */,
 				37A3EA451FE3A80200F4C3FD /* JMBaseNavigationController.h */,
+				37A3EA3F1FE3A80200F4C3FD /* JMBaseNavigationController.m */,
+				378D848F20D2690100E25029 /* UIViewController+JMBaseKit.h */,
+				378D849020D2690100E25029 /* UIViewController+JMBaseKit.m */,
+				37A3EA401FE3A80200F4C3FD /* UIView+JMBaseKit.h */,
 				37A3EA461FE3A80200F4C3FD /* UIView+JMBaseKit.m */,
+				378D849520D2765400E25029 /* UIImage+JMKit.h */,
+				378D849620D2765500E25029 /* UIImage+JMKit.m */,
+				378D84C020D3A0DF00E25029 /* NSMutableAttributedString+JMKit.h */,
+				378D84C120D3A0DF00E25029 /* NSMutableAttributedString+JMKit.m */,
+				378D84C320D3A27E00E25029 /* NSString+JMKit.h */,
+				378D84C420D3A27E00E25029 /* NSString+JMKit.m */,
+				378D84C820D3C91200E25029 /* NSDate+JMKit.h */,
+				378D84C920D3C91200E25029 /* NSDate+JMKit.m */,
+				37D6301820E4AE1D00311029 /* UIButton+JMKit.h */,
+				37D6301920E4AE1D00311029 /* UIButton+JMKit.m */,
+				37D6301520E4927600311029 /* JMImagePicker.h */,
+				37D6301620E4927600311029 /* JMImagePicker.m */,
 			);
 			path = JMBaseKit;
 			sourceTree = "<group>";
@@ -301,13 +326,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				37A3EA0E1FE3A7E800F4C3FD /* ViewController.m in Sources */,
-				37A3EA491FE3A80300F4C3FD /* NSDate+JMBaseKit.m in Sources */,
+				378D849120D2690100E25029 /* UIViewController+JMBaseKit.m in Sources */,
+				37D6301A20E4AE1D00311029 /* UIButton+JMKit.m in Sources */,
+				37D6301720E4927600311029 /* JMImagePicker.m in Sources */,
+				378D84C220D3A0DF00E25029 /* NSMutableAttributedString+JMKit.m in Sources */,
 				37A3EA481FE3A80300F4C3FD /* JMBaseNavigationController.m in Sources */,
+				378D84CA20D3C91200E25029 /* NSDate+JMKit.m in Sources */,
+				378D849720D2765500E25029 /* UIImage+JMKit.m in Sources */,
+				378D84C520D3A27E00E25029 /* NSString+JMKit.m in Sources */,
 				37A3EA4B1FE3A80300F4C3FD /* UIView+JMBaseKit.m in Sources */,
-				37A3EA4A1FE3A80300F4C3FD /* JMBaseViewController.m in Sources */,
 				37A3EA191FE3A7E800F4C3FD /* main.m in Sources */,
+				378D849A20D27A4900E25029 /* YYViewController.m in Sources */,
 				37A3EA0B1FE3A7E800F4C3FD /* AppDelegate.m in Sources */,
-				37A3EA471FE3A80300F4C3FD /* JMBaseModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

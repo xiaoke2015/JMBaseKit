@@ -17,7 +17,13 @@
 
 #define SCREEM_HEIGHT  SCREEM.size.height
 
-#define KIsiPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+#define KIsiPhoneX ((SCREEM_HEIGHT == 812 && SCREEM_WIDTH = 375)? YES : NO)
+
+#define KTabBar (KIsiPhoneX?84:50)
+
+#define KNavBar (KIsiPhoneX?88:64)
+
+#define KBody (SCREEM_HEIGHT - KTabBar - KNavBar)
 
 
 // 颜色
@@ -28,9 +34,15 @@
 // 文字大小
 #define FONT(x) [UIFont systemFontOfSize:x]
 
-#import "UIView+JMBaseKit.h"
-#import "JMBaseViewController.h"
 #import "JMBaseNavigationController.h"
+#import "UIViewController+JMBaseKit.h"
+#import "UIView+JMBaseKit.h"
+#import "UIImage+JMKit.h"
+#import "NSString+JMKit.h"
+
+#import "UIButton+JMKit.h"
+#import "JMImagePicker.h"
+#import "NSDate+JMKit.h"
 
 
 #endif /* JMBaseKit_h */

@@ -30,4 +30,8 @@
 @property (nonatomic,assign)CGFloat width;
 @property (nonatomic,assign)CGFloat height;
 
+
+// 弹出动画
+- (void)showSpringAnnimation ;
+
 @end

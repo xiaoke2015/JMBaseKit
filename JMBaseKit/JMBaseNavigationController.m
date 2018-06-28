@@ -8,8 +8,8 @@
 
 #import "JMBaseNavigationController.h"
 
-@interface JMBaseNavigationController () <
- UINavigationControllerDelegate ,
+@interface JMBaseNavigationController ()
+< UINavigationControllerDelegate ,
  UIGestureRecognizerDelegate >
 
 @end
@@ -22,12 +22,12 @@
     
     self.delegate = self;
     
-    //    / swipe gesture /
-    __weak typeof (self) weakSelf = self;
+    //   swipe gesture
+    __weak typeof (self) weak = self;
     if ([self respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
         //        self.interactivePopGestureRecognizer.enabled = YES;
         /* UIGestureRecognizerDelegate */
-        self.interactivePopGestureRecognizer.delegate = weakSelf;
+        self.interactivePopGestureRecognizer.delegate = weak;
     }
 }
 
