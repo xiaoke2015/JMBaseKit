@@ -17,7 +17,7 @@
 
 #define SCREEM_HEIGHT  SCREEM.size.height
 
-#define KIsiPhoneX ((SCREEM_HEIGHT == 812 && SCREEM_WIDTH = 375)? YES : NO)
+#define KIsiPhoneX ((SCREEM_HEIGHT == 812 && SCREEM_WIDTH == 375)? YES : NO)
 
 #define KTabBar (KIsiPhoneX?84:50)
 
@@ -33,6 +33,8 @@
 
 // 文字大小
 #define FONT(x) [UIFont systemFontOfSize:x]
+
+#define POSTNotification(x)  [[NSNotificationCenter defaultCenter] postNotificationName:x object:nil];
 
 #import "JMBaseNavigationController.h"
 #import "UIViewController+JMBaseKit.h"

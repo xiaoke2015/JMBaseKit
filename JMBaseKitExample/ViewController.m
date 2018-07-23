@@ -37,6 +37,9 @@
     [self.view addSubview:lable];
     
     self.title = @"标题";
+
+
+ 
     
 }
 
