@@ -10,4 +10,6 @@
 
 @interface JMBaseNavigationController : UINavigationController
 
+@property (nonatomic ,assign)UIStatusBarStyle statusBarStyle;
+
 @end

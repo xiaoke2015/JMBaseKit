@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		374EB9A62137956F00800AFF /* JMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 374EB9A52137956F00800AFF /* JMAlertView.m */; };
+		374EB9A921379A7D00800AFF /* JMToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 374EB9A821379A7D00800AFF /* JMToolBarView.m */; };
+		3770C0DB21D07338001295AC /* JMAppConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 3770C0DA21D07338001295AC /* JMAppConst.m */; };
 		378D849120D2690100E25029 /* UIViewController+JMBaseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 378D849020D2690100E25029 /* UIViewController+JMBaseKit.m */; };
 		378D849720D2765500E25029 /* UIImage+JMKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 378D849620D2765500E25029 /* UIImage+JMKit.m */; };
 		378D849A20D27A4900E25029 /* YYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 378D849920D27A4900E25029 /* YYViewController.m */; };
@@ -24,7 +27,6 @@
 		37A3EA481FE3A80300F4C3FD /* JMBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A3EA3F1FE3A80200F4C3FD /* JMBaseNavigationController.m */; };
 		37A3EA4B1FE3A80300F4C3FD /* UIView+JMBaseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A3EA461FE3A80200F4C3FD /* UIView+JMBaseKit.m */; };
 		37D6301720E4927600311029 /* JMImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D6301620E4927600311029 /* JMImagePicker.m */; };
-		37D6301A20E4AE1D00311029 /* UIButton+JMKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D6301920E4AE1D00311029 /* UIButton+JMKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		374EB9A42137956F00800AFF /* JMAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMAlertView.h; sourceTree = "<group>"; };
+		374EB9A52137956F00800AFF /* JMAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMAlertView.m; sourceTree = "<group>"; };
+		374EB9A721379A7D00800AFF /* JMToolBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMToolBarView.h; sourceTree = "<group>"; };
+		374EB9A821379A7D00800AFF /* JMToolBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMToolBarView.m; sourceTree = "<group>"; };
+		3770C0D921D07338001295AC /* JMAppConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMAppConst.h; sourceTree = "<group>"; };
+		3770C0DA21D07338001295AC /* JMAppConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMAppConst.m; sourceTree = "<group>"; };
+		3770C0DC21D08039001295AC /* JMBaseConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMBaseConst.h; sourceTree = "<group>"; };
 		378D848F20D2690100E25029 /* UIViewController+JMBaseKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JMBaseKit.h"; sourceTree = "<group>"; };
 		378D849020D2690100E25029 /* UIViewController+JMBaseKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JMBaseKit.m"; sourceTree = "<group>"; };
 		378D849520D2765400E25029 /* UIImage+JMKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+JMKit.h"; sourceTree = "<group>"; };
@@ -80,8 +89,6 @@
 		37A3EA461FE3A80200F4C3FD /* UIView+JMBaseKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JMBaseKit.m"; sourceTree = "<group>"; };
 		37D6301520E4927600311029 /* JMImagePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMImagePicker.h; sourceTree = "<group>"; };
 		37D6301620E4927600311029 /* JMImagePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMImagePicker.m; sourceTree = "<group>"; };
-		37D6301820E4AE1D00311029 /* UIButton+JMKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+JMKit.h"; sourceTree = "<group>"; };
-		37D6301920E4AE1D00311029 /* UIButton+JMKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JMKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +177,9 @@
 			isa = PBXGroup;
 			children = (
 				37A3EA421FE3A80200F4C3FD /* JMBaseKit.h */,
+				3770C0DC21D08039001295AC /* JMBaseConst.h */,
+				3770C0D921D07338001295AC /* JMAppConst.h */,
+				3770C0DA21D07338001295AC /* JMAppConst.m */,
 				37A3EA451FE3A80200F4C3FD /* JMBaseNavigationController.h */,
 				37A3EA3F1FE3A80200F4C3FD /* JMBaseNavigationController.m */,
 				378D848F20D2690100E25029 /* UIViewController+JMBaseKit.h */,
@@ -184,10 +194,12 @@
 				378D84C420D3A27E00E25029 /* NSString+JMKit.m */,
 				378D84C820D3C91200E25029 /* NSDate+JMKit.h */,
 				378D84C920D3C91200E25029 /* NSDate+JMKit.m */,
-				37D6301820E4AE1D00311029 /* UIButton+JMKit.h */,
-				37D6301920E4AE1D00311029 /* UIButton+JMKit.m */,
 				37D6301520E4927600311029 /* JMImagePicker.h */,
 				37D6301620E4927600311029 /* JMImagePicker.m */,
+				374EB9A42137956F00800AFF /* JMAlertView.h */,
+				374EB9A52137956F00800AFF /* JMAlertView.m */,
+				374EB9A721379A7D00800AFF /* JMToolBarView.h */,
+				374EB9A821379A7D00800AFF /* JMToolBarView.m */,
 			);
 			path = JMBaseKit;
 			sourceTree = "<group>";
@@ -327,16 +339,18 @@
 			files = (
 				37A3EA0E1FE3A7E800F4C3FD /* ViewController.m in Sources */,
 				378D849120D2690100E25029 /* UIViewController+JMBaseKit.m in Sources */,
-				37D6301A20E4AE1D00311029 /* UIButton+JMKit.m in Sources */,
 				37D6301720E4927600311029 /* JMImagePicker.m in Sources */,
 				378D84C220D3A0DF00E25029 /* NSMutableAttributedString+JMKit.m in Sources */,
 				37A3EA481FE3A80300F4C3FD /* JMBaseNavigationController.m in Sources */,
+				3770C0DB21D07338001295AC /* JMAppConst.m in Sources */,
+				374EB9A921379A7D00800AFF /* JMToolBarView.m in Sources */,
 				378D84CA20D3C91200E25029 /* NSDate+JMKit.m in Sources */,
 				378D849720D2765500E25029 /* UIImage+JMKit.m in Sources */,
 				378D84C520D3A27E00E25029 /* NSString+JMKit.m in Sources */,
 				37A3EA4B1FE3A80300F4C3FD /* UIView+JMBaseKit.m in Sources */,
 				37A3EA191FE3A7E800F4C3FD /* main.m in Sources */,
 				378D849A20D27A4900E25029 /* YYViewController.m in Sources */,
+				374EB9A62137956F00800AFF /* JMAlertView.m in Sources */,
 				37A3EA0B1FE3A7E800F4C3FD /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,6 +420,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -413,6 +428,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -461,6 +477,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -468,6 +485,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

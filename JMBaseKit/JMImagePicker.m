@@ -15,6 +15,7 @@
 @property (nonatomic ,strong)UIImagePickerController * imgPicker;
 
 @property (nonatomic , strong)UIViewController * vc;
+
 @property (nonatomic , copy)CallBackBlock  callBackBlock;
 
 

@@ -46,4 +46,10 @@
 }
 */
 
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    
+    NSLog(@"=== nnn preferredStatusBarStyle");
+    return _statusBarStyle;
+}
+
 @end
