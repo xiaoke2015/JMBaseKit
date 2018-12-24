@@ -1,4 +1,4 @@
 # JMBaseKit
 
 111
-![](/cocoapods/v/JMBaseKit.svg)
+![](http://img.shields.io/cocoapods/v/JMBaseKit.svg)
