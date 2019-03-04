@@ -14,9 +14,9 @@
 
 @property (nonatomic ,strong)UIImagePickerController * imgPicker;
 
-@property (nonatomic , strong)UIViewController * vc;
+@property (nonatomic ,strong)UIViewController * vc;
 
-@property (nonatomic , copy)CallBackBlock  callBackBlock;
+@property (nonatomic ,copy)CallBackBlock  callBackBlock;
 
 
 @end
@@ -122,7 +122,7 @@
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info
 {
     [_vc dismissViewControllerAnimated:YES completion:^{
-        _callBackBlock(info, NO); // block回调
+        self.callBackBlock(info, NO); // block回调
     }];
 }
 
@@ -130,7 +130,7 @@
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
 {
     [_vc dismissViewControllerAnimated:YES completion:^{
-        _callBackBlock(nil, YES); // block回调
+        self.callBackBlock(nil, YES); // block回调
     }];
 }
 

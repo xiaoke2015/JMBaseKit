@@ -1,18 +1,17 @@
 //
-//  JMBaseKit.h
+//  JMNavigationController.h
 //  JMBaseKitExample
 //
 //  Created by 李加建 on 2017/12/15.
 //  Copyright © 2017年 李加建. All rights reserved.
 //
 
-#ifndef JMBaseKit_h
-#define JMBaseKit_h
+#import <UIKit/UIKit.h>
 
 
-#import "JMApplication.h"
-#import "JMCategories.h"
+@interface JMNavigationController : UINavigationController
 
 
+@end
 
-#endif /* JMBaseKit_h */
+

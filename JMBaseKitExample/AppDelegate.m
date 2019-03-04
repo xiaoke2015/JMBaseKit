@@ -8,10 +8,10 @@
 
 #import "AppDelegate.h"
 
-
 #import "ViewController.h"
 
 
+#import "JMNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -26,13 +26,11 @@
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    
-    [UINavigationBar appearance].translucent = NO;
-    
-    self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[[ViewController alloc]init]];
-    
-    
-    
+
+//    [UINavigationBar appearance].translucent = NO;
+
+    self.window.rootViewController = [[JMNavigationController alloc]initWithRootViewController:[[ViewController alloc]init]];
+
     
     return YES;
 }

@@ -8,13 +8,22 @@
 
 #import "ViewController.h"
 
-#import "YYViewController.h"
-
 #import "JMBaseKit.h"
 
+#import "JMProgressHUD.h"
+
+#import "UIImage+JMBaseKit.h"
+
+#import "UIViewController+JMBaseKit.h"
+
+#import "OneViewController.h"
 
 
 @interface ViewController ()
+
+//@property (nonatomic ,copy)JMActionBlock goAction;
+
+@property (nonatomic ,strong)UITableView* tableView;
 
 @end
 
@@ -25,8 +34,16 @@
     // Do any additional setup after loading the view, typically from a nib.
     
        
-    [self loadData];
-    
+
+//    UIView * view = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
+//    view.backgroundColor = [UIColor redColor];
+//    view.center = CGPointMake(self.view.center.x, self.view.center.y - 80);
+//    [self.view addSubview:view];
+//    [self loadData];
+
+    self.navigationItem.title = @"hello";
+    self.view.backgroundColor = [UIColor grayColor];
+
 }
 
 
@@ -38,8 +55,14 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-  
-    
+
+
+    self.navigationBar.tintColor = GRAY(51);
+    self.navigationBar.backgroundColor = [UIColor blueColor];
+    self.navigationBar.shadowColor = [UIColor clearColor];
+    self.navigationBar.translucent = NO;
+
+
 }
 
 
@@ -47,37 +70,27 @@
 
 
 - (void)loadData {
-    
-    CGFloat width = JMApp.width;
-    CGFloat tabBar = JMApp.tabBar;
-    CGFloat navBar = JMApp.navBar;
-    CGFloat iPhoneX = JMApp.iPhoneX;
-    CGFloat body = JMApp.body;
-    NSString * build = JMApp.build;
-    NSString * version = JMApp.version;
-    NSString * name = JMApp.name;
-    NSString * icon = JMApp.icon;
 
 
-    SCREEM_HEIGHT;
-    SCREEM_WIDTH;
-    KBody;
-    KIsiPhoneX;
+//    NSString * home = NSHomeDirectory();
+
+    [self automaticallyAdjustsScrollView:self.tableView];
 
 
-    [NSUserDefaults standardUserDefaults];
-    [NSNotificationCenter defaultCenter];
-
-    [JMDef objectForKey:@""];
-    [JMNoti postNotificationName:@"" object:nil];
-
-
-    CGRectMake(0, 0, 0, 0);
-    RGB(0, 0, 0);
-    JMRGB(0, 0, 0);
-    JMFont(10);
-    FONT(10);
 }
+
+
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+
+
+    OneViewController * nextVC = [[OneViewController alloc]init];
+    nextVC.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:nextVC animated:YES];
+
+
+}
+
 
 
 
