@@ -12,6 +12,11 @@
 
 #import "JMApplication.h"
 #import "JMCategories.h"
+#import "JMNavigationController.h"
+#import "JMProgressHUD.h"
+#import "JMImagePicker.h"
+#import <WebKit/WebKit.h>
+
 
 
 

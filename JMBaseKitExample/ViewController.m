@@ -72,10 +72,8 @@
 - (void)loadData {
 
 
-//    NSString * home = NSHomeDirectory();
 
     [self automaticallyAdjustsScrollView:self.tableView];
-
 
 }
 
