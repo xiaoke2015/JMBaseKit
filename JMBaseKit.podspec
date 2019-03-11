@@ -2,13 +2,15 @@
 Pod::Spec.new do |s|
 
   s.name         = "JMBaseKit"
-  s.version      = "2.0.3"
+  s.version      = "2.0.4"
   s.summary      = "JMBaseKit."
   s.description  = <<-DESC
                     基础框架，方便集成，pods 管理
 
                     常用宏定义
                     JMApplication 系统功能单列调用
+                    2.0.4
+                    添加UITextView placeholder 添加 JMMenuView
 
                    DESC
 

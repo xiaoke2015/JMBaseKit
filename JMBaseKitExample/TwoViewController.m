@@ -10,6 +10,8 @@
 
 #import "JMBaseKit.h"
 
+#import "MacroDefinition.h"
+
 @interface TwoViewController ()
 
 @end
@@ -23,6 +25,9 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.navigationItem.title = @"two";
     self.backItemImage = [UIImage imageNamed:@"back"];
+
+
+    
 
 
     [self.navigationController setNeedsStatusBarAppearanceUpdate];

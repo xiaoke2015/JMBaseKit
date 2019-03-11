@@ -32,7 +32,7 @@ static char * backgroundColorkey = "backgroundColorkey";
 - (void)setBackgroundColor:(UIColor *)backgroundColor {
 
     objc_setAssociatedObject(self, backgroundColorkey, backgroundColor, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
-    self.backgroundImage = [self naviWithColor:backgroundColor];
+    self.backgroundImage = [self naviWithColor2:backgroundColor];
 }
 
 - (UIColor*)backgroundColor {
@@ -58,6 +58,21 @@ static char * shadowColorkey = "shadowColorkey";
 - (UIImage *)naviWithColor:(UIColor *)color {
 
     CGSize size = CGSizeMake(0.5, 0.5);
+    CGRect rect = CGRectMake(0, 0, size.width, size.height);
+    UIGraphicsBeginImageContextWithOptions(rect.size, NO, 0);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextSetFillColorWithColor(context, color.CGColor);
+    CGContextFillRect(context, rect);
+    UIImage *img = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+
+    return img;
+}
+
+// 处理颜色
+- (UIImage *)naviWithColor2:(UIColor *)color {
+
+    CGSize size = CGSizeMake(44, 44);
     CGRect rect = CGRectMake(0, 0, size.width, size.height);
     UIGraphicsBeginImageContextWithOptions(rect.size, NO, 0);
     CGContextRef context = UIGraphicsGetCurrentContext();
@@ -111,7 +126,7 @@ static char * fontkey = "fontkey";
 
 - (void)clearColor {
 
-    self.backgroundImage = [self naviWithColor:[UIColor clearColor]];
+    self.backgroundImage = [self naviWithColor2:[UIColor clearColor]];
     self.shadowImage = [self naviWithColor:[UIColor clearColor]];
 }
 

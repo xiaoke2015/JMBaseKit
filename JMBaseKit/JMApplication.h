@@ -27,7 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface JMApplication : NSObject
 
 // 屏幕尺寸
-@property(nonatomic,readonly) CGRect bounds;
+@property(nonatomic,readonly) CGRect bounds; 
 // 缩放比例 按375
 @property (nonatomic,readonly) CGFloat scale;
 // 屏幕尺寸

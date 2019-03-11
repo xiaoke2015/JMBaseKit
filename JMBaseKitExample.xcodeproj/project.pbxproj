@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3745ACE222362C8A00F243EA /* UITextView+JMBaseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3745ACE122362C8A00F243EA /* UITextView+JMBaseKit.m */; };
+		3745ACE522363F8000F243EA /* JMMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3745ACE422363F8000F243EA /* JMMenuView.m */; };
 		37A3EA0B1FE3A7E800F4C3FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A3EA0A1FE3A7E800F4C3FD /* AppDelegate.m */; };
 		37A3EA0E1FE3A7E800F4C3FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A3EA0D1FE3A7E800F4C3FD /* ViewController.m */; };
 		37A3EA111FE3A7E800F4C3FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A3EA0F1FE3A7E800F4C3FD /* Main.storyboard */; };
@@ -50,6 +52,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3745ACE022362C8A00F243EA /* UITextView+JMBaseKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+JMBaseKit.h"; sourceTree = "<group>"; };
+		3745ACE122362C8A00F243EA /* UITextView+JMBaseKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+JMBaseKit.m"; sourceTree = "<group>"; };
+		3745ACE322363F8000F243EA /* JMMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMMenuView.h; sourceTree = "<group>"; };
+		3745ACE422363F8000F243EA /* JMMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMMenuView.m; sourceTree = "<group>"; };
 		37A3EA061FE3A7E800F4C3FD /* JMBaseKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMBaseKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A3EA091FE3A7E800F4C3FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		37A3EA0A1FE3A7E800F4C3FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -199,6 +205,8 @@
 				37D6301620E4927600311029 /* JMImagePicker.m */,
 				37C173E522254EE4008037C5 /* JMProgressHUD.h */,
 				37C173E622254EE5008037C5 /* JMProgressHUD.m */,
+				3745ACE322363F8000F243EA /* JMMenuView.h */,
+				3745ACE422363F8000F243EA /* JMMenuView.m */,
 			);
 			path = JMBaseKit;
 			sourceTree = "<group>";
@@ -230,6 +238,8 @@
 				37C173CF22252DF6008037C5 /* UIColor+JMBaseKit.m */,
 				37C1746E2226C48B008037C5 /* UIButton+JMBaseKit.h */,
 				37C1746F2226C48B008037C5 /* UIButton+JMBaseKit.m */,
+				3745ACE022362C8A00F243EA /* UITextView+JMBaseKit.h */,
+				3745ACE122362C8A00F243EA /* UITextView+JMBaseKit.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -383,6 +393,7 @@
 				37C173CB22252B57008037C5 /* UIViewController+JMBaseKit.m in Sources */,
 				37C173C422252ABD008037C5 /* NSDate+JMBaseKit.m in Sources */,
 				37C174702226C48B008037C5 /* UIButton+JMBaseKit.m in Sources */,
+				3745ACE222362C8A00F243EA /* UITextView+JMBaseKit.m in Sources */,
 				37C173D42225335D008037C5 /* UINavigationBar+JMBaseKit.m in Sources */,
 				37C173ED22263041008037C5 /* UINavigationItem+JMBaseKit.m in Sources */,
 				37D6301720E4927600311029 /* JMImagePicker.m in Sources */,
@@ -391,6 +402,7 @@
 				37C173E12225390A008037C5 /* OneViewController.m in Sources */,
 				37C173AF22251451008037C5 /* JMApplication.m in Sources */,
 				37C173BB22252A87008037C5 /* UIView+JMBaseKit.m in Sources */,
+				3745ACE522363F8000F243EA /* JMMenuView.m in Sources */,
 				37A3EA191FE3A7E800F4C3FD /* main.m in Sources */,
 				37C173C122252AAC008037C5 /* NSString+JMBaseKit.m in Sources */,
 				37C173B222251C0C008037C5 /* JMNavigationController.m in Sources */,

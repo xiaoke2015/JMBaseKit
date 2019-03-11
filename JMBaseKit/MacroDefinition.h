@@ -87,4 +87,10 @@
 
 
 
+
+
+#define JMClassInitFromString(aString)  [[NSClassFromString(aString) alloc]init]
+
+
+
 #endif /* MacroDefinition_h */
